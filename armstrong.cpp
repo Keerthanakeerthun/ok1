@@ -7,7 +7,7 @@ cout<<"Enter a positive number"<<endl;
 cin>>num;
    temp=num;
 
-   while(temp!= 0) {
+   while(temp!= 0&&temp<=100000) {
    
       rem = temp % 10;
       sum =sum+(rem * rem * rem);
